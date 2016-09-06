@@ -4,7 +4,7 @@ $(".nav li").on("click", function() {
       $(this).addClass("active");
 });
 
-$(document).on('click', 'a', function(event){
+$(document).on('click', 'a[href*=#]', function(event){
     event.preventDefault();
 
     $('html, body').animate({
