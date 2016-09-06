@@ -3,21 +3,102 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <title>NSAR LTAR Project Site</title>
+  
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/simple-sidebar.css" rel="stylesheet"> 
+  <!-- <link href="css/main.css" rel="stylesheet">-->
+
   <meta name="description" content="">
   <meta name="author" content="">
 
   <link rel="stylesheet" href="css/main.css?v=1.0">
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-<body>
-  <h1>Project notes</h1>
+<body data-spy="scroll" data-target="#sidebar-wrapper">
+  <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        WSU LTAR
+                    </a>
+                </li>
+                <li>
+                    <a href="#overview">Overview</a>
+                </li>
+                <li>
+                    <a href="#meeting-minutes">Minutes</a>
+                </li>
+                <li>
+                    <a href="#members">Members</a>
+                </li>
+                <li>
+                    <a href="#mailing-list">Mailing LIst</a>
+                </li>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                      <div id="overview">
+                        <h1>Overview</h1>
+                        <p>Lorem ipsum dolor sit amet, vestibulum turpis nibh. Euismod enim semper diam arcu integer, curabitur qui elit volutpat ridiculus, at in sed amet posuere eget, iaculis aliquam commodo. Maecenas natoque sed. Sagittis donec erat, pede tellus viverra. Aenean sagittis, morbi penatibus libero ut magna libero, ut imperdiet varius eget massa iusto, pede ad vitae integer condimentum pede, in ut libero. Lectus quisque nisl duis nullam deserunt ultricies, vehicula viverra vivamus nascetur, viverra cursus morbi vitae augue. Ligula ante quis egestas diam, donec vestibulum magna vestibulum. Vel aptent, nonummy enim et nec ipsum consequat neque. Vitae tellus tellus id sit vel, enim nam justo, aptent duis quisque sit, cursus eu vestibulum, a turpis mauris velit magna. Ante in. Mauris est fusce vivamus a, nibh commodo nec amet libero donec turpis. Vel quam donec facilisis et imperdiet, neque augue dui a in eget.
+Enim nulla tempor suscipit non, nec lacus porta risus, id duis. Eget quis ipsum lorem, cursus duis diam id quis ultrices, nec proin in ac condimentum nostra amet, morbi proin adipiscing, sit nec vel velit ac. Per nam. Quisque platea quis semper nibh in luctus, impedit adipiscing, consectetuer dapibus facilisis, donec rhoncus cum sapien, enim in id metus fringilla libero arcu. Ligula dui consectetuer risus id sed elementum, sit tellus leo, eros mattis blandit eu et, a nulla suspendisse, mi iaculis lacus placerat. Ac consectetuer purus mauris. Elit cursus. Dui vulputate nibh at ipsum dictum nam, habitant fusce at ut luctus nulla eget, nulla donec non, purus metus, montes erat augue. Pharetra sit dignissim leo sit sit, odio turpis neque tellus voluptatibus felis. Wisi at lorem sit. Nec aliquam interdum lacus tellus vulputate, in morbi id volutpat suscipit iusto.
+Elit cubilia donec natus vitae vitae. Odio libero rutrum senectus repudiandae, viverra proin at sapien maecenas eu in, mi magna odio egestas in urna eleifend, parturient semper enim velit. Vestibulum nostra bibendum consequat vestibulum, wisi lectus aliquam. Tellus vestibulum donec ut, nibh quis eu vestibulum. Interdum eget eget arcu, suscipit velit et viverra volutpat, magna nulla arcu lectus neque mattis. Venenatis felis, etiam nec volutpat nunc, suspendisse pellentesque auctor ullamcorper. Dignissim aliquet sociis ante laoreet turpis eu, nulla porta cursus nunc fusce dolor. Arcu consectetuer magna ante suspendisse vestibulum, blandit felis est lacinia tempor, magnis sed fringilla dictum, ac pharetra sodales integer vivamus in sit. Tempus wisi id sodales, et amet sit, pellentesque et fusce a dui.</p>
+                      </div>
+                      <div id="meeting-minutes">
+                        <h1>Meeting minutes</h1>
+                        <ul>
+                          <li>Sept. 1, 2016</li>
+                        </ul>
+                      </div>
+                      <div id="members">
+                        <h1>Members</h1>
+                        <p>Lorem ipsum dolor sit amet, vestibulum turpis nibh. Euismod enim semper diam arcu integer, curabitur qui elit volutpat ridiculus, at in sed amet posuere eget, iaculis aliquam commodo. Maecenas natoque sed. Sagittis donec erat, pede tellus viverra. Aenean sagittis, morbi penatibus libero ut magna libero, ut imperdiet varius eget massa iusto, pede ad vitae integer condimentum pede, in ut libero. Lectus quisque nisl duis nullam deserunt ultricies, vehicula viverra vivamus nascetur, viverra cursus morbi vitae augue. Ligula ante quis egestas diam, donec vestibulum magna vestibulum. Vel aptent, nonummy enim et nec ipsum consequat neque. Vitae tellus tellus id sit vel, enim nam justo, aptent duis quisque sit, cursus eu vestibulum, a turpis mauris velit magna. Ante in. Mauris est fusce vivamus a, nibh commodo nec amet libero donec turpis. Vel quam donec facilisis et imperdiet, neque augue dui a in eget.
+Enim nulla tempor suscipit non, nec lacus porta risus, id duis. Eget quis ipsum lorem, cursus duis diam id quis ultrices, nec proin in ac condimentum nostra amet, morbi proin adipiscing, sit nec vel velit ac. Per nam. Quisque platea quis semper nibh in luctus, impedit adipiscing, consectetuer dapibus facilisis, donec rhoncus cum sapien, enim in id metus fringilla libero arcu. Ligula dui consectetuer risus id sed elementum, sit tellus leo, eros mattis blandit eu et, a nulla suspendisse, mi iaculis lacus placerat. Ac consectetuer purus mauris. Elit cursus. Dui vulputate nibh at ipsum dictum nam, habitant fusce at ut luctus nulla eget, nulla donec non, purus metus, montes erat augue. Pharetra sit dignissim leo sit sit, odio turpis neque tellus voluptatibus felis. Wisi at lorem sit. Nec aliquam interdum lacus tellus vulputate, in morbi id volutpat suscipit iusto.
+Elit cubilia donec natus vitae vitae. Odio libero rutrum senectus repudiandae, viverra proin at sapien maecenas eu in, mi magna odio egestas in urna eleifend, parturient semper enim velit. Vestibulum nostra bibendum consequat vestibulum, wisi lectus aliquam. Tellus vestibulum donec ut, nibh quis eu vestibulum. Interdum eget eget arcu, suscipit velit et viverra volutpat, magna nulla arcu lectus neque mattis. Venenatis felis, etiam nec volutpat nunc, suspendisse pellentesque auctor ullamcorper. Dignissim aliquet sociis ante laoreet turpis eu, nulla porta cursus nunc fusce dolor. Arcu consectetuer magna ante suspendisse vestibulum, blandit felis est lacinia tempor, magnis sed fringilla dictum, ac pharetra sodales integer vivamus in sit. Tempus wisi id sodales, et amet sit, pellentesque et fusce a dui.</p>
+                      </div>
+                      <div id="mailing-list">
+
+                        <h1>Mailing list</h1>
+                        <p>Lorem ipsum dolor sit amet, vestibulum turpis nibh. Euismod enim semper diam arcu integer, curabitur qui elit volutpat ridiculus, at in sed amet posuere eget, iaculis aliquam commodo. Maecenas natoque sed. Sagittis donec erat, pede tellus viverra. Aenean sagittis, morbi penatibus libero ut magna libero, ut imperdiet varius eget massa iusto, pede ad vitae integer condimentum pede, in ut libero. Lectus quisque nisl duis nullam deserunt ultricies, vehicula viverra vivamus nascetur, viverra cursus morbi vitae augue. Ligula ante quis egestas diam, donec vestibulum magna vestibulum. Vel aptent, nonummy enim et nec ipsum consequat neque. Vitae tellus tellus id sit vel, enim nam justo, aptent duis quisque sit, cursus eu vestibulum, a turpis mauris velit magna. Ante in. Mauris est fusce vivamus a, nibh commodo nec amet libero donec turpis. Vel quam donec facilisis et imperdiet, neque augue dui a in eget.
+Enim nulla tempor suscipit non, nec lacus porta risus, id duis. Eget quis ipsum lorem, cursus duis diam id quis ultrices, nec proin in ac condimentum nostra amet, morbi proin adipiscing, sit nec vel velit ac. Per nam. Quisque platea quis semper nibh in luctus, impedit adipiscing, consectetuer dapibus facilisis, donec rhoncus cum sapien, enim in id metus fringilla libero arcu. Ligula dui consectetuer risus id sed elementum, sit tellus leo, eros mattis blandit eu et, a nulla suspendisse, mi iaculis lacus placerat. Ac consectetuer purus mauris. Elit cursus. Dui vulputate nibh at ipsum dictum nam, habitant fusce at ut luctus nulla eget, nulla donec non, purus metus, montes erat augue. Pharetra sit dignissim leo sit sit, odio turpis neque tellus voluptatibus felis. Wisi at lorem sit. Nec aliquam interdum lacus tellus vulputate, in morbi id volutpat suscipit iusto.
+Elit cubilia donec natus vitae vitae. Odio libero rutrum senectus repudiandae, viverra proin at sapien maecenas eu in, mi magna odio egestas in urna eleifend, parturient semper enim velit. Vestibulum nostra bibendum consequat vestibulum, wisi lectus aliquam. Tellus vestibulum donec ut, nibh quis eu vestibulum. Interdum eget eget arcu, suscipit velit et viverra volutpat, magna nulla arcu lectus neque mattis. Venenatis felis, etiam nec volutpat nunc, suspendisse pellentesque auctor ullamcorper. Dignissim aliquet sociis ante laoreet turpis eu, nulla porta cursus nunc fusce dolor. Arcu consectetuer magna ante suspendisse vestibulum, blandit felis est lacinia tempor, magnis sed fringilla dictum, ac pharetra sodales integer vivamus in sit. Tempus wisi id sodales, et amet sit, pellentesque et fusce a dui.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
   
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 </html>
