@@ -4,10 +4,7 @@ $(".nav li").on("click", function() {
       $(this).addClass("active");
 });
 
-$(document).on('click', 'a[href*=#]', function(event){
+$("a[href^='#']").on('click', function(event){     
     event.preventDefault();
-
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 400);
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 400);
 });
