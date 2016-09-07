@@ -1,0 +1,9 @@
+h2 {
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+}
+
+a {
+    color: #b67233;
+    text-decoration: underline;
+}

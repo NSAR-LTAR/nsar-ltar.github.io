@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -10,9 +11,8 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom CSS -->
-  <link href="css/simple-sidebar.css" rel="stylesheet"> 
-  <link href="css/main.css" rel="stylesheet">
+  <!-- Custom CSS --> 
+  <link href="css/main3.css" rel="stylesheet">
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -26,88 +26,117 @@
 </head>
 
 <body> <!-- Template from: http://www.bootply.com/render/96266 -->
-  <div id="wrapper">
 
-        <!-- Sidebar -->
-        <!-- <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><span class="glyphicon glyphicon-menu-hamburger" /></a> -->
-        <div id="sidebar-wrapper">
-            
-            <ul id="sidebar" class="sidebar-nav nav" >
-                <li class="sidebar-brand">
-                    <a href="#">
-                        WSU LTAR
-                    </a>
-                </li>
-                <li>
-                    <a href="#overview">Overview</a>
-                </li>
-                <li>
-                    <a href="#meeting-minutes">Meeting minutes</a>
-                </li>
-                <li>
-                    <a href="#members">Members</a>
-                </li>
-                <li>
-                    <a href="#mailing-list">Mailing list</a>
-                </li>
-                </li>
-            </ul>
-        </div>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                      <div id="overview">
-                        <h2>Overview</h2>
-                        <p>This is the project site for the Long-Term Agroecosystem Research (LTAR) site managed by the USDA ARS Northwest Sustainable Agroecosystem Research unit and Washington State University.</p>
-                        <p>Files and general information will be aggregated here</p>
-                      </div>
-                      <div id="meeting-minutes">
-                        <h2>Meetings</h2>
-                        <p>Committee meetings are every first and third Thursday of the month (we do not meet if there is a 5th Thur).  Meetings are held at 2 PM in Johnson Hall 398W.</p>
-                        <h3>Minutes</h3>
-                          <ul>
-                            <li>Sept. 1, 2016 [<a href="documents/meeting-minutes/160901_NSAR_LTAR_Meeting.pdf">pdf</a>]</li>
-                          </ul>
-                        <h3>Subcommittees</h3>
-                          <ul>
-                            <li>
-                              <strong>EC tower upgrade and relocation</strong><br />
-                              Meetings: Second and Fourth Thur, 2 PM @ PACCAR 405<br />
-                              Members: <em>Coming soon...</em>
-                            </li>
-                          </ul>
-                      </div>
-                      <div id="members">
-                        <h2>Members</h2>
-                        <p><em>Coming soon...</em></p>
-                      </div>
-                      <div id="mailing-list">
-
-                      <h2>Mailing list</h2>
-                      <p>A mailing list is used for discussion and announcement.</p>
-                      <p class="alert alert-info"><span class="glyphicon glyphicon-exclamation-sign"></span> Please join the mailing list using the <a href="http://lists.wsu.edu/mailman/listinfo/nsar-ltar">online form</a></p>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-
+<nav class="navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">NSAR LTAR</a>
     </div>
-    <!-- /#wrapper -->
-  
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <!--<li>
+          <a href="/">Home</a>
+        </li>
+         <li>
+          <a href="#sec">Edit</a>
+        </li>
+        <li>
+          <a href="#sec">Visualize</a>
+        </li>
+        <li>
+          <a href="#sec">Prototype</a>
+        </li> -->
+      </ul>
+    </nav>
+  </div>
+</nav>
+
+<div id="masthead">  
+  <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h1>Project Page
+            <p class="lead">Cook Agronomy Farm <br />
+            Long-Term Agroecosystem Resarch Site</p>
+          </h1>
+        </div>
+        <!-- <div class="col-md-5">
+            <div class="well well-lg"> 
+              <div class="row">
+                <div class="col-sm-6">
+        	      	<img src="//placehold.it/180x100" class="img-responsive">
+                </div>
+                <div class="col-sm-6">
+	              	Some text here
+                </div>
+              </div>
+            </div>
+        </div> -->
+      </div> 
+  </div><!--/container-->
+</div><!--/masthead-->
+
+<!--main-->
+<div class="container">
+	<div class="row">
+      <!--left-->
+      <div class="col-md-3" id="leftCol">
+        <ul class="nav nav-stacked" id="sidebar">
+          <li><a href="#overview"><i class="glyphicon glyphicon-info-sign"></i> Overview</a></li>
+          <li><a href="#meetings"><i class="glyphicon glyphicon-calendar"></i> Meetings</a></li>
+          <li><a href="#members"><i class="glyphicon glyphicon-user"></i> Members</a></li>
+          <li><a href="#mailing-list"><i class="glyphicon glyphicon-envelope"></i> Mailing List</a></li>
+        </ul>
+      </div><!--/left-->
+      
+      <!--right-->
+      <div class="col-md-9" id="right-content">
+        <a id="overview" class="anchor" ></a>
+        <h2><i class="glyphicon glyphicon-info-sign"></i> Overview</h2>
+        <p>This is the project site for the Long-Term Agroecosystem Research (LTAR) site managed by the USDA ARS Northwest Sustainable Agroecosystem Research unit and Washington State University.</p>
+        <p>Files and general information will be aggregated here</p>
+
+        <a id="meetings" class="anchor"></a>
+        <h2><i class="glyphicon glyphicon-calendar"></i> Meetings</h2>
+        <p>Committee meetings are every first and third Thursday of the month (we do not meet if there is a 5th Thur).  Meetings are held at 2 PM in Johnson Hall 398W.</p>
+        <h3>Minutes</h3>
+            <ul>
+            <li>Sept. 1, 2016 [<a href="documents/meeting-minutes/160901_NSAR_LTAR_Meeting.pdf">pdf</a>]</li>
+            </ul>
+        <h3>Subcommittees</h3>
+        <ul>
+        <li>
+            <strong>EC tower upgrade and relocation</strong><br />
+            Meetings: Second and Fourth Thur, 2 PM @ PACCAR 405<br />
+            Members: <em>Coming soon...</em>
+        </li>
+        </ul>
+        
+        <a id="members" class="anchor"></a>
+        <h2><i class="glyphicon glyphicon-user"></i> Members</h2>
+        <p><em>Coming soon...</em></p>
+        
+        <a id="mailing-list" class="anchor"></a>
+        <h2><i class="glyphicon glyphicon-envelope"></i> Mailing List</h2>
+        <p>A mailing list is used for discussion and announcement.</p>
+        <p class="alert alert-info"><span class="glyphicon glyphicon-exclamation-sign"></span> Please join the mailing list using the <a href="http://lists.wsu.edu/mailman/listinfo/nsar-ltar">online form</a></p>
+
+        </div><!--/right-->
+  	</div><!--/row-->
+</div><!--/container-->
+
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <script>
-    
+  <script src="js/scripts3.js"></script>
 
-</script>
 </body>
 </html>
