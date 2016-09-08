@@ -19,12 +19,21 @@ h2 {
 
 #masthead { 
  min-height:250px;
+ background-image: url("../assets/title-canola-cropped.jpg");
+ background-size: cover;
+ height: calc(100% - 1px);
 }
 
 #masthead h1 {
  font-size: 30px;
  line-height: 1;
  padding-top:20px;
+ color: #000;
+    text-shadow:
+    -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+    1px 1px 0 #FFF; 
 }
 
 #masthead .well {
